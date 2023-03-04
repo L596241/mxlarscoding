@@ -300,14 +300,11 @@ h6 {
 
 
   #hero p {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    width: 100%;
-    max-width: none;
-  }
+    position:relative;
+    left: 60px;
+    top: 70px;
+    }
+}
 
 /*--------------------------------------------------------------
 # Sections General
