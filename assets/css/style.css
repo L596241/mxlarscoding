@@ -286,7 +286,7 @@ h6 {
     line-height: 36px;
     text-align: center;
     position: relative;
-    left: 40px;
+    left: 100px;
     top: 60px;
     margin-left: 0;
   }
@@ -301,7 +301,7 @@ h6 {
 
   #hero p {
     position:relative;
-    left: 60px;
+    left: 100px;
     top: 70px;
     }
 }
