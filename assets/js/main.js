@@ -139,7 +139,6 @@ if (typed) {
     backSpeed: 50,
     backDelay: 2000,
     smartBackspace: true,
-    shuffle: true
   });
 }
 
