@@ -280,11 +280,12 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 36px;
     text-align: center;
     position: relative;
     left: 40px;
+    top: 60;
     margin-left: 0;
   }
 
@@ -293,6 +294,15 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+
+
+  #hero p {
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 60;
+    margin-left: 0;
   }
 }
 
