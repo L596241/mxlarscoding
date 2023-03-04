@@ -303,7 +303,8 @@ h6 {
     text-align: center;
     top: 60px;
     margin-left: 0;
-    width:fit-content  }
+    width: 100%;
+  max-width: none;  }
 }
 
 /*--------------------------------------------------------------
