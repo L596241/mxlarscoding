@@ -264,7 +264,8 @@ h6 {
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
-  max-width: max-content;
+  display: inline-block;
+  max-width: none;
 }
 
 #hero p span {
