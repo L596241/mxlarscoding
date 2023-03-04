@@ -301,12 +301,9 @@ h6 {
 
   #hero p {
     text-align: center;
-    position: relative;
-    left: 40px;
     top: 60px;
     margin-left: 0;
-    width: 500px;
-  }
+    width:fit-content  }
 }
 
 /*--------------------------------------------------------------
