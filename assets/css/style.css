@@ -281,9 +281,12 @@ h6 {
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 30px;
-    line-height: 60px;
+    line-height: 36px;
     text-align: center;
-    margin-left: 30;
+    position: relative;
+    left: 30px;
+    top: 60px;
+    margin-left: 0;
   }
 
 
