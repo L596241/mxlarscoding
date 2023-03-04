@@ -301,8 +301,8 @@ h6 {
 
   #hero p {
     text-align: center;
-    top: 60px;
-    margin-left: 0;
+    margin-top: 50%;
+    margin-left: 30%;
     width: 100%;
   max-width: none;  }
 }
