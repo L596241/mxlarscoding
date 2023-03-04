@@ -282,7 +282,11 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    text-align: center;
+    margin-left: 0;
   }
+}
+
 
   #hero h2 {
     font-size: 18px;
