@@ -67,57 +67,67 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <body>
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Portfolio Details</li>
-          </ol>
-        </div>
+    <!-- ======= Header ======= -->
+    <header id="header">
+        <!-- ... All your <header> content here ... -->
+    </header><!-- End Header -->
 
-      </div>
-    </section><!-- End Breadcrumbs -->
+    <main id="main">
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="image of Yahtzee game screenshot">
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web application game</li>
-                <li><strong>Project date</strong>: 18.07.2023 </li>
-                <li><strong>Project URL</strong>: <a href="https://mxlars.pythonanywhere.com/">Click here for a live demo</a></li>
-              </ul>
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2>Certificates and Diplomas</h2>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li>Certificates and Diplomas</li>
+                    </ol>
+                </div>
             </div>
-            <div class="portfolio-description">
-              <h2>Details</h2>
-              <p>This is a Yahtzee web application game. It allows users to play the popular dice game online. The game follows the standard rules of Yahtzee, including 15 rounds of gameplay and scoring based on different categories. Players can roll the dice, select which dice to keep, and strategize their moves to achieve the highest score.</p>
-              <p>The project was developed using Python, Flask, SQLite3, Jinja, HTML, CSS, and JavaScript. It incorporates server-side handling of score calculations and uses JavaScript for dice rolling functionality and updating the user interface.</p>
-              <p>It is also implemented a simple server-side sqlite3 database to handle user registration and login.</p>
-              <p>This was a very hard challenge, but all the fun along the way made it worth it! :)</p>
+        </section><!-- End Breadcrumbs -->
+
+        <!-- ======= Certificates Section ======= -->
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-12 certificate-gallery">
+
+                        <!-- Certificate 1 -->
+                        <a href="path_to_certificate1_large_image.png">
+                            <img src="assets/img/portfolio/certificate1.jpg" alt="Certificate 1" class="img-fluid">
+                        </a>
+
+                        <!-- Certificate 2 -->
+                        <a href="path_to_certificate2_large_image.png">
+                            <img src="assets/img/portfolio/certificate2.jpg" alt="Certificate 2" class="img-fluid">
+                        </a>
+
+                        <!-- ... Add more certificates as needed ... -->
+
+                    </div>
+
+                    <!-- Sidebar with links (unchanged) -->
+                    <div class="col-lg-4">
+                        <div class="profile">
+                            <!-- ... Your profile content ... -->
+                        </div>
+
+                        <nav id="navbar" class="nav-menu navbar">
+                            <!-- ... Your navbar links ... -->
+                        </nav><!-- .nav-menu -->
+                    </div>
+
+                </div>
             </div>
-          </div>
+        </section><!-- End Certificates Section -->
 
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Details Section -->
-
-  </main><!-- End #main -->
+    </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -136,6 +146,7 @@
   </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
