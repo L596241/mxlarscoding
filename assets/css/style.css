@@ -572,11 +572,12 @@ section {
   margin-right: 0;
 }
 
-.custom-portfolio-item {
-    max-width: 50%; /* This ensures only two items per row */
-    flex: 0 0 50%; /* This maintains the sizing */
+.portfolio .portfolio-item.custom-portfolio-item {
+    max-width: 50% !important; /* This ensures only two items per row */
+    flex: 0 0 50% !important; /* This maintains the sizing */
     box-sizing: border-box;
 }
+
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
