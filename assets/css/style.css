@@ -436,7 +436,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -573,9 +573,11 @@ section {
 }
 
 .portfolio .portfolio-item.custom-portfolio-item {
-    flex: 0 0 calc(40% - 10px); /* Adjust the width as needed */
+    flex: 0 0 calc(50% - 10px); /* 2 items per row */
+    margin: 5px; /* Adjust the margin as needed */
     box-sizing: border-box;
 }
+
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
