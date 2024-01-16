@@ -567,9 +567,10 @@ section {
 .portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
-/* Add this CSS code to center the filter list */
-#portfolio-flters {
-    text-align: left;
+
+/* Add this CSS code to align the filter list text to the left */
+.col-lg-12.d-flex.justify-content-center ul#portfolio-flters {
+    justify-content: flex-start;
 }
 
 .portfolio #portfolio-flters li:last-child {
