@@ -92,25 +92,24 @@
         <div class="row gy-4">
 
           <div class="col-lg-8">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="image of Yahtzee game screenshot">
+                  <img src="assets/img/portfolio/portfolio-details-4.jpg" alt="illustration image of my DinoClassifier">
           </div>
 
           <div class="col-lg-4">
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web application game</li>
+                <li><strong>Category</strong>: Dinosaur image classifier</li>
                 <li><strong>Project date</strong>: 18.07.2023 </li>
-                <li><strong>Project URL</strong>: <a href="https://mxlars.pythonanywhere.com/">Click here for a live demo</a></li>
-                <li><strong>Github URL</strong>: <a href="https://github.com/L596241/Yahtzee/">Click here for Github repositiory</a></li>
+                <li><strong>Project URL</strong>: <a href="https://huggingface.co/spaces/mxlars/DinoClassifier/">Click here for a live demo</a></li>
+                <li><strong>Github URL</strong>: <a href="https://github.com/L596241/DinoClassifier/">Click here for Github repositiory</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Details</h2>
-              <p>This is a Yahtzee web application game. It allows users to play the popular dice game online. The game follows the standard rules of Yahtzee, including 15 rounds of gameplay and scoring based on different categories. Players can roll the dice, select which dice to keep, and strategize their moves to achieve the highest score.</p>
-              <p>The project was developed using Python, Flask, SQLite3, Jinja, HTML, CSS, and JavaScript. It incorporates server-side handling of score calculations and uses JavaScript for dice rolling functionality and updating the user interface.</p>
-              <p>It is also implemented a simple server-side sqlite3 database to handle user registration and login.</p>
-              <p>This was a very hard challenge, but all the fun along the way made it worth it! :)</p>
+              <p>This is a Dinosaur Species Image Classifier build on Deep Learning Engineering where i trained a dataset of dinosaur images.</p>
+              <p>This cool app lets you upload a photo (of a dinosaur) and then it will classify which species it is!</p>
+              <p>It was a really fun project to do, especially because it's mindblowing to think that, to make a similar working program 5-7 years ago, would have taken months to program!</p>
             </div>
           </div>
 
