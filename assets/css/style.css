@@ -578,6 +578,12 @@ section {
     box-sizing: border-box;
 }
 
+.portfolio .portfolio-item.custom-portfolio-item img {
+    max-width: 100%; /* Limit image width to its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
