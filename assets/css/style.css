@@ -568,9 +568,8 @@ section {
   color: #149ddd;
 }
 /* Add this CSS code to center the filter list */
-.filter-list {
-    text-align: center;
-    width: 100%;
+#portfolio-flters {
+    text-align: left;
 }
 
 .portfolio #portfolio-flters li:last-child {
