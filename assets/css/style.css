@@ -573,8 +573,8 @@ section {
 }
 
 .portfolio .portfolio-item.custom-portfolio-item {
-    max-width: 10% !important; /* This ensures only two items per row */
-    flex: 0 0 10% !important; /* This maintains the sizing */
+    max-width: 50% !important; /* This ensures only two items per row */
+    flex: 0 0 100% !important; /* This maintains the sizing */
     box-sizing: border-box;
 }
 
