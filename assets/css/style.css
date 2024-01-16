@@ -576,9 +576,13 @@ section {
     flex: 0 0 calc(50% - 10px); /* 2 items per row */
     margin: 5px; /* Adjust the margin as needed */
     box-sizing: border-box;
-    max-width: calc(50% - 10px); /* Keep the original image size */
-    width: 100%; /* Ensure 100% width within the column */
 }
+
+.portfolio .portfolio-item.custom-portfolio-item img {
+    max-width: 100%; /* Limit image width to its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 
 
