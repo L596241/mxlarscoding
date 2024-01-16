@@ -573,7 +573,7 @@ section {
 }
 
 .portfolio .portfolio-item.custom-portfolio-item {
-    flex: 0 0 calc(50% - 10px); /* Adjust the width as needed */
+    flex: 0 0 calc(40% - 10px); /* Adjust the width as needed */
     box-sizing: border-box;
 }
 
