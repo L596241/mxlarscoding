@@ -568,10 +568,16 @@ section {
   color: #149ddd;
 }
 
-/* This CSS rule will align the filter list to the left */
-.col-lg-12.d-flex ul#portfolio-flters {
-    justify-content: flex-start;
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 0 35px 0; /* Align to the left */
+  list-style: none;
+  text-align: left; /* Align text to the left */
+  background: #fff;
+  border-radius: 50px;
+  padding: 2px 15px;
 }
+
 
 
 .portfolio #portfolio-flters li:last-child {
