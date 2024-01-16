@@ -311,6 +311,7 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -569,6 +570,12 @@ section {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
+}
+
+.custom-portfolio-item {
+    max-width: 50%; /* This ensures only two items per row */
+    flex: 0 0 50%; /* This maintains the sizing */
+    box-sizing: border-box;
 }
 
 .portfolio .portfolio-wrap {
