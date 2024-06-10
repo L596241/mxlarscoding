@@ -17,9 +17,12 @@ function calculateAge(birthDateString) {
         age--;
     }
     return age;
-  }
+}
 
-  document.getElementById('age').textContent = calculateAge('1989-12-07');
+document.addEventListener("DOMContentLoaded", function() {
+    var ageElement = document.getElementById('age');
+    if (ageElement) {
+        ageElement.textContent = calculateAge('1989-12-07');
 
 
 
