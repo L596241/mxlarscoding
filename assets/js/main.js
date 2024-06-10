@@ -5,26 +5,24 @@
 * License: https://bootstrapmade.com/license/
 */
 
-  /**
-   * Automatically increment my Birthday
-   */
+ /**
+ * Automatically increment my Birthday
+ */
 function calculateAge(birthDateString) {
-    var birthDate = new Date(birthDateString);
-    var today = new Date();
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-    return age;
+  var birthDate = new Date(birthDateString);
+  var today = new Date();
+  var age = today.getFullYear() - birthDate.getFullYear();
+  var m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+  return age;
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    var ageElement = document.getElementById('age');
-    if (ageElement) {
-        ageElement.textContent = calculateAge('1989-12-07');
-
-
+var ageElement = document.getElementById('age');
+if (ageElement) {
+  ageElement.textContent = calculateAge('1989-12-07');
+}
 
 
 (function() {
