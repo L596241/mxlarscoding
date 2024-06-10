@@ -5,7 +5,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
- /**
+/**
  * Automatically increment my Birthday
  */
 function calculateAge(birthDateString) {
@@ -23,7 +23,6 @@ var ageElement = document.getElementById('age');
 if (ageElement) {
   ageElement.textContent = calculateAge('1989-12-07');
 }
-
 
 (function() {
   "use strict";
@@ -150,20 +149,17 @@ if (ageElement) {
    * Hero type effect
    */
   const typed = select('.typed')
-if (typed) {
-  let typed_strings = typed.getAttribute('data-typed-items')
-  typed_strings = typed_strings.split(',')
-  new Typed('.typed', {
-    strings: typed_strings,
-    loop: true,
-    typeSpeed: 100,
-    backSpeed: 50,
-    backDelay: 2000,
-    smartBackspace: true,
-  });
-}
-
-
+  if (typed) {
+    let typed_strings = typed.getAttribute('data-typed-items')
+    typed_strings = typed_strings.split(',')
+    new Typed('.typed', {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 50,
+      backDelay: 2000
+    });
+  }
 
   /**
    * Skills animation
@@ -183,7 +179,7 @@ if (typed) {
   }
 
   /**
-   * Porfolio isotope and filter
+   * Portfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
