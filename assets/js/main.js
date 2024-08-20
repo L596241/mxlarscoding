@@ -5,6 +5,28 @@
 * License: https://bootstrapmade.com/license/
 */
 
+// Function to display visitor count and auto-hide it after 3 seconds
+function displayVisitorCount() {
+    const visitorDiv = document.getElementById('visitor-count');
+
+    // Show the visitor count div only when the "b" key is pressed
+    visitorDiv.style.display = 'block';
+
+    // Hide the visitor count after 3 seconds
+    setTimeout(() => {
+        visitorDiv.style.display = 'none';
+    }, 3000); // 3000 milliseconds = 3 seconds
+}
+
+// Add event listener for key press (key "b")
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'b' || event.key === 'B') {
+        displayVisitorCount(); // Display the visitor count when "b" is pressed
+    }
+});
+
+
+
 /**
  * Automatically increment my Birthday
  */
